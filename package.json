@@ -1,0 +1,44 @@
+{
+  "name": "reactron",
+  "version": "1.0.0",
+  "description": "Minimal seed for electron/react single page applications",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/electron-prebuilt/dist/Electron.app/Contents/MacOS/Electron .",
+    "watch": "./node_modules/.bin/webpack-dev-server",
+    "electron-rebuild": "./node_modules/.bin/electron-rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shanewignall/reactron.git"
+  },
+  "keywords": [
+    "react",
+    "electron",
+    "seed",
+    "boilerplate"
+  ],
+  "author": "Shane Wignall",
+  "license": "ISC",
+  "dependencies": {
+    "electron-prebuilt": "*",
+    "react": "*",
+    "react-bootstrap": "*",
+    "react-dom": "*",
+    "react-router": "*"
+  },
+  "devDependencies": {
+    "babel-cli": "*",
+    "babel-loader": "^6.2.5",
+    "babel-preset-react": "^6.11.1",
+    "css-loader": "*",
+    "electron-packager": "*",
+    "electron-rebuild": "*",
+    "webpack": "*",
+    "webpack-dev-server": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/shanewignall/reactron/issues"
+  },
+  "homepage": "https://github.com/shanewignall/reactron#readme"
+}
