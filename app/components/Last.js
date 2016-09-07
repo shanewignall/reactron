@@ -6,7 +6,7 @@ var Header = React.createClass({
       <div className="jumbotron text-center">
         <h1>*Sigh*</h1>
       </div>
-    );
+    )
   }
 });
 
@@ -16,24 +16,24 @@ var Info = React.createClass({
       <div className="container">
         <p>This is the last page.. should we kiss?</p>
       </div>
-    );
+    )
   }
 });
 
-// var Nav = React.createClass({
-//   render: function() {
-//     return (
-//       <div className="container">
-//         <a href="/next" type="submit" id="next">
-//           <span className="glyphicon glyphicon-menu-left pull-left" aria-hidden="true"></span>
-//         </a>
-//         <a href="/" type="submit" id="next">
-//           <span className="glyphicon glyphicon-menu-right pull-right" aria-hidden="true"></span>
-//         </a>
-//       </div>
-//     );
-//   }
-// });
+var Nav = React.createClass({
+  render: function() {
+    return (
+      <div className="container">
+        <a href="#/next" type="submit" id="next">
+          <span className="glyphicon glyphicon-menu-left pull-left" aria-hidden="true"></span>
+        </a>
+        <a href="#/last" type="submit" id="next">
+          <span className="glyphicon glyphicon-menu-right pull-right" aria-hidden="true"></span>
+        </a>
+      </div>
+    );
+  }
+});
 
 var Last = React.createClass({
   render: function() {
@@ -41,9 +41,9 @@ var Last = React.createClass({
       <div>
         <Header />
         <Info />
-      //  <Nav />
+        <Nav />
       </div>
-    );
+    )
   }
 });
 
