@@ -1,18 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-class Search extends React.Component {
+import Main from './components/main.component';
 
-  render() {
-    return (
-      <form>
-        <input type="text" />
-        <input type="submit" />
-      </form>
-    );
-  }
-}
-
-ReactDOM.render(<Search />,
+ReactDOM.render(<Main />,
   document.getElementById('app')
 );
