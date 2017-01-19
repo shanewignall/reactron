@@ -1,3 +1,5 @@
 Reactron
 ===
-A simple electron/react seed project for SPAs
+A minimal Electron/React seed application
+
+**Note:** Before using, install 'watchify' globally with `npm i -g watchify`
